@@ -1,0 +1,6 @@
+[submodule "PyNetTools"]
+	path = PyNetTools
+	url = https://github.com/MaliciouZzHD/PyNetTools
+[submodule "PyPrintSystem"]
+	path = PyPrintSystem
+	url = https://github.com/MaliciouZzHD/PyPrintSystem
