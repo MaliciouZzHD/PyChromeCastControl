@@ -169,7 +169,7 @@ while True:
 					PyPrintSystem.p("[" + str(savedNetworkArray.index(i)) + "] " + i["ssid"] + " (" + str(i["wpa_id"]) + ")")
 
 				while selectedMenuItem not in range(0, len(savedNetworkArray)):
-					PyPrintSystem.p("Not a valid selection: " + selectedMenuItem, 'v', verbose)
+					PyPrintSystem.p("Not a valid selection: " + str(selectedMenuItem), 'v', verbose)
 					selectedMenuItem = int(PyPrintSystem.i("CCC>Forget> ", 'i'))
 
 				PyPrintSystem.p("Forgetting WiFi network: " + savedNetworkArray[selectedMenuItem]["ssid"], 'v', verbose)
