@@ -11,13 +11,13 @@ With PyChromeCastControl, you can:
 And plenty more!
 
 ## Installation (beginner):
-    git clone https://github.com/MaliciouZzHD/PyChromeCastControl --recurse-submodules
+    git clone https://github.com/JacobC1926/PyChromeCastControl --recurse-submodules
     cd PyChromeCastControl
     chmod +x ChromeCastControl
     ./ChromeCastControl
     
 ## Installation (advanced):
-    git clone https://github.com/MaliciouZzHD/PyChromeCastControl --recurse-submodules
+    git clone https://github.com/JacobC1926/PyChromeCastControl --recurse-submodules
     cd PyChromeCastControl
     chmod +x ChromeCastControl
     sudo ln -s $(pwd)/ChromeCastControl /sbin/pychromecastcontrol
